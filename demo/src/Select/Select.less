@@ -1,0 +1,43 @@
+.type-error-select {
+  box-sizing: border-box;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  border: solid 1px #000000;
+  border-radius: 3px;
+
+  display: flex;
+  flex-direction: column;
+
+  .main-wrap {
+    flex-grow: 1;
+    margin: 0 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    .left-text {
+      flex-grow: 1;
+      line-height: 40px;
+    }
+
+    .right-btn {
+      flex-grow: 0;
+      line-height: 40px;
+      img {
+        width: 20px;
+      }
+    }
+  }
+}
+
+.type-error-drop {
+  box-sizing: border-box;
+  min-width: 150px;
+  border: solid 1px #000000;
+  border-radius: 3px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

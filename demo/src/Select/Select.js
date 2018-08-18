@@ -57,7 +57,7 @@ export default class Select extends React.Component {
     const { expending } = this.state
     const imgURL = expending ? 'assets/fold.svg' : 'assets/unfold.svg'
 
-    return <div ref={c => this.root_ = c} className='type-error-select' onClick={this.onMainClick.bind(this)}>
+    return <div ref={c => { this.root_ = c }} className='type-error-select' onClick={this.onMainClick.bind(this)}>
       <div className='main-wrap'>
         <div className='left-text'>
           {text}

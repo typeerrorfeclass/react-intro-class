@@ -8,27 +8,29 @@ export default class Input extends React.Component {
     }
   }
 
-  onChange (event) {
-    const t = this.input_.value
+  // onChange (event) {
+  //   const t = this.input_.value
 
-    console.log(t)
-    if (t && t.length > 10) {
-      return
-    }
+  //   console.log(t)
+  //   if (t && t.length > 10) {
+  //     return
+  //   }
 
-    this.setState({
-      value: t
-    })
-  }
+  //   this.setState({
+  //     value: t
+  //   })
+  // }
 
   render () {
-    const { value: defaultValue } = this.props
-    const { value } = this.state
-    return <input
-      ref={c => { this.input_ = c }}
-      type='text'
-      defaultValue={defaultValue}
-      value={value}
-      onChange={this.onChange.bind(this)} />
+    // const { value: defaultValue } = this.props
+    // const { value } = this.state
+    // return <input
+    //   ref={c => { this.input_ = c }}
+    //   type='text'
+    //   defaultValue={defaultValue}
+    //   value={value}
+    //   onChange={this.onChange.bind(this)} />
+
+    return <input type='text' value={this.props.value} />
   }
 }

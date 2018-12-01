@@ -31,6 +31,11 @@ export default class Button extends React.Component {
 
   onClick () {
     const { onClick } = this.props
+
+    if (!onClick) {
+      return
+    }
+
     onClick()
   }
 

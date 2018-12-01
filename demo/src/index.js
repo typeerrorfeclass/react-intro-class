@@ -1,11 +1,11 @@
 // import traditionalWay from './traditionalWay'
 // import backboneWay from './backboneWay'
 // import reactWay from './reactWay'
-import hashRouter from './hashRouter'
-// import reactRouter from './reactRouter'
+// import hashRouter from './hashRouter'
+import reactRouter from './reactRouter'
 
 // traditionalWay('#traditional')
 // backboneWay('#backbone')
 // reactWay('#react')
-hashRouter('#react')
-// reactRouter('#react')
+// hashRouter('#react')
+reactRouter('#react')

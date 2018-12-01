@@ -18,6 +18,7 @@ class App extends React.Component {
             <Route path='/' component={_ => <div>Main Page</div>} />
           </Switch>
           <Link to='/foo'>转到Foo</Link>
+          <br />
           <Link to='/bar'>转到Bar</Link>
         </div>
       </Router>

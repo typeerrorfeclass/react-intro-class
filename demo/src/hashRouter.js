@@ -45,7 +45,7 @@ class HashRouterComponent extends React.Component {
     } else if (hash === 'bar') {
       pageContent = <div>Bar Page</div>
     } else {
-      pageContent = <div>Other Page</div>
+      pageContent = <div>您输入了错误地址</div>
     }
 
     return <div style={style}>
